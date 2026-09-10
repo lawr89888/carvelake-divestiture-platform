@@ -1,53 +1,53 @@
 resources:
   schemas:
     shared_bu_01:
-      name: bu_01
-      catalog_name: ${var.prefix}shared
+      name: ci_bu_01
+      catalog_name: shared
 
     shared_bu_02:
-      name: bu_02
-      catalog_name: ${var.prefix}shared
+      name: ci_bu_02
+      catalog_name: shared
 
     shared_bu_03:
-      name: bu_03
-      catalog_name: ${var.prefix}shared
+      name: ci_bu_03
+      catalog_name: shared
 
     shared_bu_04:
-      name: bu_04
-      catalog_name: ${var.prefix}shared
+      name: ci_bu_04
+      catalog_name: shared
 
     shared_bu_05:
-      name: bu_05
-      catalog_name: ${var.prefix}shared
+      name: ci_bu_05
+      catalog_name: shared
 
     shared_bu_06:
-      name: bu_06
-      catalog_name: ${var.prefix}shared
-
-    enterprise_gold:
-      name: gold
-      catalog_name: ${var.prefix}enterprise
+      name: ci_bu_06
+      catalog_name: shared
 
     bu_01_gold:
-      name: gold
-      catalog_name: ${var.prefix}bu_01
+      name: ci_gold
+      catalog_name: bu_01
 
     bu_02_gold:
-      name: gold
-      catalog_name: ${var.prefix}bu_02
+      name: ci_gold
+      catalog_name: bu_02
 
     bu_03_gold:
-      name: gold
-      catalog_name: ${var.prefix}bu_03
+      name: ci_gold
+      catalog_name: bu_03
 
     bu_04_gold:
-      name: gold
-      catalog_name: ${var.prefix}bu_04
+      name: ci_gold
+      catalog_name: bu_04
 
     bu_05_gold:
-      name: gold
-      catalog_name: ${var.prefix}bu_05
+      name: ci_gold
+      catalog_name: bu_05
 
     bu_06_gold:
-      name: gold
-      catalog_name: ${var.prefix}bu_06
+      name: ci_gold
+      catalog_name: bu_06
+
+    enterprise_gold:
+      name: ci_gold
+      catalog_name: enterprise
