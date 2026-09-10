@@ -1,0 +1,16 @@
+resources:
+  pipelines:
+    enterprise_pipeline:
+      name: ${var.prefix}carvelake-enterprise
+      serverless: true
+      continuous: false
+
+      catalog: ${var.prefix}enterprise
+      target: gold
+
+      libraries:
+        - glob:
+            include: ../pipelines/enterprise/enterprise_pipeline.py
+
+      configuration:
+        prefix: ${var.prefix}

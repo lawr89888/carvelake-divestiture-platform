@@ -1,0 +1,9 @@
+{
+  "batch_id": "3ed31f4535c42a4b",
+  "source_system": "erp",
+  "source_object": "gl_invoices",
+  "records_extracted": 1800,
+  "watermark_before": null,
+  "watermark_after": "2026-08-01T02:22:13+03:00",
+  "status": "SUCCESS"
+}

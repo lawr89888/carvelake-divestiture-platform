@@ -1,0 +1,17 @@
+[
+  {
+    "cc_key": "CC-SHARED-0001",
+    "name": "Global Shared Operations",
+    "department": "Operations",
+    "business_group": "bg_direct",
+    "is_shared": 1,
+    "shared_with": "bu_02|bu_03|bu_06",
+    "bu_id": "SHARED",
+    "is_deleted": 0,
+    "updated_at": "2026-08-01T03:00:00+03:00",
+    "_ingested_at": "2026-08-31T14:12:59.331668+00:00",
+    "_source_system": "erp",
+    "_source_object": "cost_centers",
+    "_batch_id": "20260831T141259Z_c890922b"
+  }
+]

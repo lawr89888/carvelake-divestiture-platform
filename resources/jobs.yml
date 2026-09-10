@@ -1,0 +1,58 @@
+resources:
+  jobs:
+    daily_pipeline_job:
+      name: carvelake-daily-pipeline
+
+      max_concurrent_runs: 1
+
+      schedule:
+        quartz_cron_expression: "0 0 2 * * ?"
+        timezone_id: "Africa/Cairo"
+        pause_status: UNPAUSED
+
+      email_notifications:
+        on_failure:
+          - mo902138@gmail.com
+
+      tasks:
+      
+
+        - task_key: bu_01
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.bu_01_pipeline.id}
+
+        - task_key: bu_02
+          depends_on:
+            - task_key: bu_01
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.bu_02_pipeline.id}
+
+        - task_key: bu_03
+          depends_on:
+            - task_key: bu_02
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.bu_03_pipeline.id}
+
+        - task_key: bu_04
+          depends_on:
+            - task_key: bu_03
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.bu_04_pipeline.id}
+
+        - task_key: bu_05
+          depends_on:
+            - task_key: bu_04
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.bu_05_pipeline.id}
+
+        - task_key: bu_06
+          depends_on:
+            - task_key: bu_05
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.bu_06_pipeline.id}
+
+        - task_key: enterprise
+          depends_on:
+            - task_key: bu_06
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.enterprise_pipeline.id}

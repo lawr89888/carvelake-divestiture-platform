@@ -1,0 +1,10 @@
+{
+  "batch_id": "20260831T141251Z_56ee84fb",
+  "source_system": "erp",
+  "source_object": "vendors",
+  "run_timestamp": "2026-08-31T14:12:58.593520+00:00",
+  "records_extracted": 91,
+  "watermark_before": null,
+  "watermark_after": "2026-08-01T03:00:00+03:00",
+  "status": "SUCCESS"
+}

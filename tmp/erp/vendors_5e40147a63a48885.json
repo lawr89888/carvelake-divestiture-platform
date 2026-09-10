@@ -1,0 +1,9 @@
+{
+  "batch_id": "5e40147a63a48885",
+  "source_system": "erp",
+  "source_object": "vendors",
+  "records_extracted": 91,
+  "watermark_before": null,
+  "watermark_after": "2026-08-01T03:00:00+03:00",
+  "status": "SUCCESS"
+}

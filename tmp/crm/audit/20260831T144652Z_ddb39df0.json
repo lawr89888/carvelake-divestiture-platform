@@ -1,0 +1,10 @@
+{
+  "batch_id": "20260831T144652Z_ddb39df0",
+  "source_system": "crm",
+  "source_object": "deals",
+  "run_timestamp": "2026-08-31T14:46:59.952765+00:00",
+  "records_extracted": 480,
+  "watermark_before": null,
+  "watermark_after": "2026-08-26T12:45:10.593795+00:00",
+  "status": "SUCCESS"
+}

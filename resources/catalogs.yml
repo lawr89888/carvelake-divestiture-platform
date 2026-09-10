@@ -1,0 +1,78 @@
+resources:
+  catalogs:
+    shared_catalog:
+      name: ${var.prefix}shared
+
+    enterprise_catalog:
+      name: ${var.prefix}enterprise
+
+    bu_01_catalog:
+      name: ${var.prefix}bu_01
+
+    bu_02_catalog:
+      name: ${var.prefix}bu_02
+
+    bu_03_catalog:
+      name: ${var.prefix}bu_03
+
+    bu_04_catalog:
+      name: ${var.prefix}bu_04
+
+    bu_05_catalog:
+      name: ${var.prefix}bu_05
+
+    bu_06_catalog:
+      name: ${var.prefix}bu_06
+
+  schemas:
+    shared_bu_01:
+      name: bu_01
+      catalog_name: ${resources.catalogs.shared_catalog.name}
+
+    shared_bu_02:
+      name: bu_02
+      catalog_name: ${resources.catalogs.shared_catalog.name}
+
+    shared_bu_03:
+      name: bu_03
+      catalog_name: ${resources.catalogs.shared_catalog.name}
+
+    shared_bu_04:
+      name: bu_04
+      catalog_name: ${resources.catalogs.shared_catalog.name}
+
+    shared_bu_05:
+      name: bu_05
+      catalog_name: ${resources.catalogs.shared_catalog.name}
+
+    shared_bu_06:
+      name: bu_06
+      catalog_name: ${resources.catalogs.shared_catalog.name}
+
+    enterprise_gold:
+      name: gold
+      catalog_name: ${resources.catalogs.enterprise_catalog.name}
+
+    bu_01_gold:
+      name: gold
+      catalog_name: ${resources.catalogs.bu_01_catalog.name}
+
+    bu_02_gold:
+      name: gold
+      catalog_name: ${resources.catalogs.bu_02_catalog.name}
+
+    bu_03_gold:
+      name: gold
+      catalog_name: ${resources.catalogs.bu_03_catalog.name}
+
+    bu_04_gold:
+      name: gold
+      catalog_name: ${resources.catalogs.bu_04_catalog.name}
+
+    bu_05_gold:
+      name: gold
+      catalog_name: ${resources.catalogs.bu_05_catalog.name}
+
+    bu_06_gold:
+      name: gold
+      catalog_name: ${resources.catalogs.bu_06_catalog.name}

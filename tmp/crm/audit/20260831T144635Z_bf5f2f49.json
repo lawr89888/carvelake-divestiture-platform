@@ -1,0 +1,10 @@
+{
+  "batch_id": "20260831T144635Z_bf5f2f49",
+  "source_system": "crm",
+  "source_object": "companies",
+  "run_timestamp": "2026-08-31T14:46:43.135312+00:00",
+  "records_extracted": 240,
+  "watermark_before": null,
+  "watermark_after": "2026-08-25T08:29:15.101425+00:00",
+  "status": "SUCCESS"
+}

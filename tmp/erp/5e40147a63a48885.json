@@ -1,0 +1,17 @@
+[
+  {
+    "vendor_key": "V-SHARED-0001",
+    "name": "Global Shared Services Ltd",
+    "category": "Professional Services",
+    "country": "United States",
+    "is_shared": 1,
+    "shared_with": "bu_02|bu_03|bu_06",
+    "bu_id": "SHARED",
+    "is_deleted": 0,
+    "updated_at": "2026-08-01T03:00:00+03:00",
+    "_ingested_at": "2026-09-09T08:29:07.383821+00:00",
+    "_source_system": "erp",
+    "_source_object": "vendors",
+    "_batch_id": "5e40147a63a48885"
+  }
+]

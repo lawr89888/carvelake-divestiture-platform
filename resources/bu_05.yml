@@ -1,0 +1,22 @@
+resources:
+  pipelines:
+    bu_05_pipeline:
+      name: ${var.prefix}carvelake-bu-05
+      serverless: true
+      continuous: false
+
+      catalog: ${var.prefix}shared
+      target: bu_05
+
+      libraries:
+        - glob:
+            include: ../pipelines/raw_bronze/bronze_pipeline.py
+        - glob:
+            include: ../pipelines/bronze_silver/silver_pipeline.py
+        - glob:
+            include: ../pipelines/silver_gold/gold_pipeline.py
+
+      configuration:
+        bu_id: bu_05
+        shared_catalog: ${var.prefix}shared
+        bu_catalog: ${var.prefix}bu_05

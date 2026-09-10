@@ -1,0 +1,10 @@
+{
+  "batch_id": "20260831T141259Z_c890922b",
+  "source_system": "erp",
+  "source_object": "cost_centers",
+  "run_timestamp": "2026-08-31T14:13:03.513280+00:00",
+  "records_extracted": 49,
+  "watermark_before": null,
+  "watermark_after": "2026-08-01T03:00:00+03:00",
+  "status": "SUCCESS"
+}
